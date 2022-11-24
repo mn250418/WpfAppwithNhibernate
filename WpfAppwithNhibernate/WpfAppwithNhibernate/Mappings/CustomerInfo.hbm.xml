@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="WpfAppwithNhibernate"
+                   namespace="WpfAppwithNhibernate">
+
+	<!-- more mapping info here -->
+	<class name="WpfAppwithNhibernate.CustomerInfo">
+		<id name="CustomerId">
+			<generator class="identity" />
+		</id>
+		<property name="FirstName" />
+		<property name="LastName" />
+		<property name="MobileNumber" />
+		<property name="Address" />
+	</class>
+</hibernate-mapping>
